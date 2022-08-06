@@ -5,3 +5,4 @@
 
 // TODO
 - gitignore 경로
+- token, fcm
