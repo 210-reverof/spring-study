@@ -6,3 +6,4 @@
 // TODO
 - gitignore 경로
 - token, fcm
+- 경로 구분
