@@ -16,17 +16,17 @@ import java.util.stream.Collectors;
 
 @Entity
 @Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED) // 3
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
     private Long uid;
 
-    @Column(nullable = false, length = 30, unique = true) // 1
+    @Column(nullable = false, length = 30, unique = true)
     private String id;
 
-    private String password; // 2
+    private String password;
 
     @Column(nullable = false, length = 20)
     private String username;
