@@ -8,3 +8,4 @@ gitignore은 새로운 파일들 보면 더ㅣㄹ 듯
 - gitignore 경로
 - token, fcm
 - 경로 구분
+- 테스트 코드 짜기
